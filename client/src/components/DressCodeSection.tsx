@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { optimizeCloudinaryUrl } from '@/lib/cloudinaryOptimize';
-const principalSponsorsImage = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550575/principal-sponsors_udmjzy.jpg';
+const principalSponsorsImage = 'https://res.cloudinary.com/dtpzamzmg/image/upload/v1763562595/56f991c6-eef9-4c5e-a626-d08019f450c1.png';
 const guestsImage = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550572/guests_cnph2l.jpg';
 import anchorIcon from '@assets/image_1763448087302.png';
 
