@@ -226,14 +226,6 @@ export default function ScrollTriggeredTimeline() {
                 ))}
             </div>
 
-            {/* Footer Section */}
-            <footer className="text-center py-8 text-white bg-primary" data-testid="footer">
-                <div className="container mx-auto px-4">
-                    <h2 className="text-3xl md:text-4xl font-serif italic mb-4">ALTON & ZYRA</h2>
-                    <p className="text-sm md:text-base">December 13, 2025 . Calamba City, Laguna</p>
-                </div>
-            </footer>
-            
             {/* Bottom Decorative */}
             <motion.div 
                 className="mt-16 text-center pb-8"
