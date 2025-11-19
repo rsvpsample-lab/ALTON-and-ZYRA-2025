@@ -10,11 +10,11 @@
 
 @layer base {
   :root {
-    /* Navy & Gold Wedding Theme */
+    /* Baby Blue & Navy Wedding Theme */
     
-    /* PRIMARY - Navy Background */
-    --background: 240 100% 25%; /* Navy background #000080 */
-    --foreground: 45 100% 51%; /* Gold text */
+    /* PRIMARY - Baby Blue Background */
+    --background: 200 70% 85%; /* Baby blue background */
+    --foreground: 210 80% 20%; /* Deep navy blue text */
 
     /* Card Colors - Light cards with dark text */
     --card: 200 50% 95%; /* Very light blue cards */
@@ -224,7 +224,7 @@
   body {
     @apply text-foreground font-body;
     font-family: var(--font-body);
-    background: #000080;
+    background: hsl(200, 70%, 85%);
     position: relative;
     min-height: 100vh;
     margin: 0;
@@ -659,10 +659,10 @@
     animation-play-state: paused;
   }
 
-  /* Alternating Section Backgrounds - Navy & Gold Theme */
+  /* Alternating Section Backgrounds - Baby Blue Theme */
   .section-pastel-blue {
-    background-color: #000080;
-    color: hsl(45, 100%, 51%);
+    background-color: hsl(200, 70%, 85%);
+    color: hsl(210, 80%, 20%);
     position: relative;
     overflow: hidden;
   }
@@ -673,8 +673,8 @@
   }
 
   .section-hard-blue {
-    background: #000080;
-    color: hsl(45, 100%, 51%);
+    background: hsl(200, 70%, 85%);
+    color: hsl(210, 80%, 20%);
     position: relative;
     overflow: hidden;
   }

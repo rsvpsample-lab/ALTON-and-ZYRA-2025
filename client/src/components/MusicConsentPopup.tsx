@@ -26,8 +26,7 @@ const MusicConsentPopup = ({ onConsent, isVisible }: MusicConsentPopupProps) => 
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.9, opacity: 0, y: 20 }}
             transition={{ type: "spring", duration: 0.5 }}
-            className="rounded-lg p-8 md:p-12 max-w-lg w-full mx-4 shadow-2xl border border-yellow-600 relative overflow-hidden"
-            style={{ backgroundColor: '#000080' }}
+            className="bg-background rounded-lg p-8 md:p-12 max-w-lg w-full mx-4 shadow-2xl border border-border relative overflow-hidden"
           >
             <div className="absolute top-0 left-0 w-16 h-16 border-l-2 border-t-2 border-yellow-600 opacity-20"></div>
             <div className="absolute top-0 right-0 w-16 h-16 border-r-2 border-t-2 border-yellow-600 opacity-20"></div>
@@ -65,7 +64,7 @@ const MusicConsentPopup = ({ onConsent, isVisible }: MusicConsentPopupProps) => 
                   <div className="h-px w-12 bg-yellow-600"></div>
                 </div>
 
-                <p className="leading-relaxed text-base md:text-lg italic px-4" style={{ color: 'hsl(45, 100%, 51%)' }}>
+                <p className="text-foreground/80 leading-relaxed text-base md:text-lg italic px-4">
                   Would you like to play music to explore more of our wedding invitation?
                 </p>
               </div>
