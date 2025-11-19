@@ -35,7 +35,7 @@ const VenueSection = () => {
   return (
     <motion.section 
       id="venue" 
-      className="section-pastel-blue bg-background py-8 px-4"
+      className="bg-white py-8 px-4"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 6.5 }}
@@ -47,7 +47,7 @@ const VenueSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 6.8 }}
         >
-          <h1 className="text-4xl font-display font-light mb-2 text-yellow-600 flex items-center justify-center gap-3" data-testid="text-venue-section-title">
+          <h1 className="text-4xl font-display font-light mb-2 flex items-center justify-center gap-3" data-testid="text-venue-section-title" style={{ color: '#000080' }}>
             Venue
             <img 
               src="https://res.cloudinary.com/dajcu5yvb/image/upload/v1763445212/6522e6a5-cc20-4cc2-89a4-089a11ab2bdf-removebg-preview_qb660m.png" 

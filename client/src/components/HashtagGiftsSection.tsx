@@ -9,7 +9,7 @@ const HashtagGiftsSection = () => {
   return (
     <motion.section 
       id="hashtag-gifts" 
-      className="section-pastel-blue bg-background relative overflow-hidden py-8 mt-[-34px] mb-[-34px]"
+      className="bg-white relative overflow-hidden py-8 mt-[-34px] mb-[-34px]"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 0.3 }}
@@ -22,7 +22,7 @@ const HashtagGiftsSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 0.3 }}
         >
-          <h2 className="md:text-5xl font-display font-light text-primary text-[36px]" data-testid="text-gifts-header">Gift Guide</h2>
+          <h2 className="md:text-5xl font-display font-light text-[36px]" data-testid="text-gifts-header" style={{ color: '#000080' }}>Gift Guide</h2>
         </motion.div>
 
         <motion.div 

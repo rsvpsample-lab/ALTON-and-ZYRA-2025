@@ -59,7 +59,7 @@ const FAQSection = () => {
   return (
     <motion.section 
       id="faqs"
-      className="section-pastel-blue bg-background py-20 px-4"
+      className="bg-white py-20 px-4"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 11.5 }}
@@ -72,7 +72,7 @@ const FAQSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 11.8 }}
         >
-          <h2 className="text-5xl font-display font-light italic text-yellow-600 mb-8" data-testid="text-faq-title">
+          <h2 className="text-5xl font-display font-light italic mb-8" data-testid="text-faq-title" style={{ color: '#000080' }}>
             Frequently Asked Questions
           </h2>
           <p className="text-lg font-body text-foreground max-w-2xl mx-auto">
