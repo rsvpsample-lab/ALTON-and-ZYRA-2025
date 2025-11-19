@@ -97,7 +97,7 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center gap-3">
             <img 
-              src="https://res.cloudinary.com/dna2lcbua/image/upload/v1763441125/972c77f1-2a7c-4b0a-b5c6-c0609993e4af_kdejrj.png" 
+              src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550742/image-removebg-preview_nnor5g.png" 
               alt="P&D Logo" 
               className="h-12 w-auto"
             />
