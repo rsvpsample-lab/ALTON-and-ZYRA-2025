@@ -35,7 +35,8 @@ const VenueSection = () => {
   return (
     <motion.section 
       id="venue" 
-      className="section-pastel-blue bg-background py-8 px-4"
+      className="section-pastel-blue py-8 px-4"
+      style={{ backgroundColor: '#000080' }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 6.5 }}

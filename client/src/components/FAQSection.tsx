@@ -79,7 +79,8 @@ const FAQSection = () => {
   return (
     <motion.section 
       id="faqs"
-      className="section-pastel-blue bg-background py-20 px-4"
+      className="section-pastel-blue py-20 px-4"
+      style={{ backgroundColor: '#000080' }}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1, delay: 11.5 }}
@@ -95,7 +96,7 @@ const FAQSection = () => {
           <h2 className="text-5xl font-display font-light italic text-yellow-600 mb-8" data-testid="text-faq-title">
             Frequently Asked Questions
           </h2>
-          <p className="text-lg font-body text-foreground max-w-2xl mx-auto">
+          <p className="text-lg font-body max-w-2xl mx-auto" style={{ color: 'hsl(45, 100%, 51%)' }}>
             We've compiled answers to the most common questions about our wedding day. 
             If you have additional questions, please don't hesitate to contact us.
           </p>
