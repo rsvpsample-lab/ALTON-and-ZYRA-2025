@@ -2,8 +2,8 @@ import { motion } from 'framer-motion';
 import { optimizeCloudinaryUrl } from '@/lib/cloudinaryOptimize';
 const backgroundImage = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550573/gift_section_fp45qe.jpg';
 
-const giftQR1 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550490/gift1_qyxgb0.jpg';
-const giftQR2 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550573/gift2_oev8qm.jpg';
+const giftQR1 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763553336/gift1_af5l3j.jpg';
+const giftQR2 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763553337/gift2_q484py.jpg';
 
 const HashtagGiftsSection = () => {
   return (
@@ -84,7 +84,7 @@ const HashtagGiftsSection = () => {
                     <img 
                       src={giftQR1}
                       alt="Gift Option 1 QR Code"
-                      className="w-40 h-40 md:w-48 md:h-48 object-contain"
+                      className="w-56 h-56 md:w-72 md:h-72 object-contain"
                       data-testid="img-gift-qr-1"
                     />
                   </div>
@@ -97,7 +97,7 @@ const HashtagGiftsSection = () => {
                     <img 
                       src={giftQR2}
                       alt="Gift Option 2 QR Code"
-                      className="w-40 h-40 md:w-48 md:h-48 object-contain"
+                      className="w-56 h-56 md:w-72 md:h-72 object-contain"
                       data-testid="img-gift-qr-2"
                     />
                   </div>
