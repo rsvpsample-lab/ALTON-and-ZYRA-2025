@@ -22,12 +22,10 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
         className="absolute inset-0 w-full h-full object-cover"
         data-testid="hero-image"
       />
-
       {/* Overlay for better text readability */}
       <div className="absolute inset-0 bg-black/40" />
-
       {/* Content - Top positioned on mobile, centered on desktop */}
-      <div className="relative z-10 flex flex-col items-center text-center px-6">
+      <div className="relative z-10 flex flex-col items-center text-center px-6 mt-[110px] mb-[110px]">
         {/* Tagline */}
         <div className={`transition-all duration-700 mb-4 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
           <p className="text-sm sm:text-base md:text-lg text-white font-light tracking-[0.3em] uppercase" data-testid="text-tagline" style={{ fontFamily: 'Satoshi, sans-serif', fontWeight: 300 }}>
@@ -73,7 +71,6 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
           </p>
         </div>
       </div>
-
       {/* Scroll Down Arrow - Bottom of screen */}
       <div className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10 transition-all duration-700 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
         <div className="flex flex-col items-center justify-center space-y-2 text-center pl-[-21px] pr-[-21px] ml-[-27px] mr-[-27px]">
@@ -83,7 +80,6 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
           </svg>
         </div>
       </div>
-
       {/* Styles */}
       <style>{`
         .hero-section {
