@@ -26,7 +26,7 @@ const MusicConsentPopup = ({ onConsent, isVisible }: MusicConsentPopupProps) => 
             animate={{ scale: 1, opacity: 1, y: 0 }}
             exit={{ scale: 0.9, opacity: 0, y: 20 }}
             transition={{ type: "spring", duration: 0.5 }}
-            className="bg-background rounded-lg p-8 md:p-12 max-w-lg w-full mx-4 shadow-2xl border border-border relative overflow-hidden"
+            className="bg-white dark:bg-white rounded-lg p-8 md:p-12 max-w-lg w-full mx-4 shadow-2xl border border-border relative overflow-hidden"
           >
             <div className="absolute top-0 left-0 w-16 h-16 border-l-2 border-t-2 border-yellow-600 opacity-20"></div>
             <div className="absolute top-0 right-0 w-16 h-16 border-r-2 border-t-2 border-yellow-600 opacity-20"></div>
@@ -64,7 +64,7 @@ const MusicConsentPopup = ({ onConsent, isVisible }: MusicConsentPopupProps) => 
                   <div className="h-px w-12 bg-yellow-600"></div>
                 </div>
 
-                <p className="text-foreground/80 leading-relaxed text-base md:text-lg italic px-4">
+                <p className="text-gray-700 dark:text-gray-700 leading-relaxed text-base md:text-lg italic px-4">
                   Would you like to play music to explore more of our wedding invitation?
                 </p>
               </div>
@@ -81,7 +81,7 @@ const MusicConsentPopup = ({ onConsent, isVisible }: MusicConsentPopupProps) => 
                 <Button
                   onClick={() => handleConsent(false)}
                   variant="outline"
-                  className="flex-1 border-2 border-border hover:border-yellow-600 text-foreground hover:text-yellow-600 bg-transparent hover:bg-muted font-medium py-5 px-6 rounded-lg transition-all duration-300 text-base"
+                  className="flex-1 border-2 border-gray-300 dark:border-gray-300 hover:border-yellow-600 text-gray-700 dark:text-gray-700 hover:text-yellow-600 bg-transparent font-medium py-5 px-6 rounded-lg transition-all duration-300 text-base"
                   data-testid="button-skip-music"
                 >
                   <VolumeX className="h-5 w-5 mr-2" />
