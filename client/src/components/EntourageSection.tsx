@@ -70,44 +70,35 @@ const EntourageSection = () => {
               </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {/* Ninong Column */}
-              <div className="space-y-3">
-                <h4 className="text-lg font-semibold text-center text-foreground mb-4 pb-2 border-b-2 border-yellow-600/30">
-                  Ninong
-                </h4>
-                {principalSponsors.map((sponsor, index) => (
+            <div className="grid grid-cols-2 gap-4 max-w-4xl mx-auto">
+              {/* Combined Row-by-Row Layout */}
+              {principalSponsors.map((sponsor, index) => (
+                <>
+                  {/* Ninong - Right Aligned */}
                   <motion.div
                     key={`ninong-${index}`}
-                    className="bg-gradient-to-r from-yellow-600/5 to-transparent p-3 rounded-lg"
+                    className="text-right pr-2"
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: 10.3 + (index * 0.1) }}
                     data-testid={`text-ninong-${index}`}
                   >
-                    <p className="text-foreground font-medium">{sponsor.ninong}</p>
+                    <p className="text-foreground text-sm md:text-base font-normal">{sponsor.ninong}</p>
                   </motion.div>
-                ))}
-              </div>
 
-              {/* Ninang Column */}
-              <div className="space-y-3">
-                <h4 className="text-lg font-semibold text-center text-foreground mb-4 pb-2 border-b-2 border-yellow-600/30">
-                  Ninang
-                </h4>
-                {principalSponsors.map((sponsor, index) => (
+                  {/* Ninang - Left Aligned */}
                   <motion.div
                     key={`ninang-${index}`}
-                    className="bg-gradient-to-l from-yellow-600/5 to-transparent p-3 rounded-lg"
+                    className="text-left pl-2"
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.5, delay: 10.3 + (index * 0.1) }}
                     data-testid={`text-ninang-${index}`}
                   >
-                    <p className="text-foreground font-medium">{sponsor.ninang}</p>
+                    <p className="text-foreground text-sm md:text-base font-normal">{sponsor.ninang}</p>
                   </motion.div>
-                ))}
-              </div>
+                </>
+              ))}
             </div>
           </div>
         </motion.div>
