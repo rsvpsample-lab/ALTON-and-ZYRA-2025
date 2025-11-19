@@ -89,7 +89,7 @@ const Navigation = () => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b border-primary/30 shadow-soft transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 z-50 bg-white dark:bg-white backdrop-blur-md border-b border-primary/30 shadow-soft transition-all duration-300 ${
       isVisible ? 'translate-y-0' : '-translate-y-full'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -138,7 +138,7 @@ const Navigation = () => {
       {/* Mobile Navigation */}
       {isOpen && (
         <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 bg-background/95 backdrop-blur-md border-b border-primary/30">
+          <div className="px-2 pt-2 pb-3 space-y-1 bg-white dark:bg-white backdrop-blur-md border-b border-primary/30">
             {navItems.map((item) => (
               <button
                 key={item.name}
