@@ -6,15 +6,16 @@ import anchorIcon from '@assets/image_1763448087302.png';
 
 const DressCodeSection = () => {
   const principalSponsorsColors = [
-    { name: 'Dusty Blue', color: '#7c9eb2', hex: '#7c9eb2' },
-    { name: 'Light Blue', color: '#a8c5dd', hex: '#a8c5dd' }
+    { name: 'Dark Navy Blue', color: '#1e3a5f', hex: '#1e3a5f' },
+    { name: 'Gold', color: '#fbbf24', hex: '#fbbf24' }
   ];
 
   const guestsColors = [
-    { name: 'Royal Blue', color: '#2563eb', hex: '#2563eb' },
-    { name: 'Dusty Blue', color: '#7c9eb2', hex: '#7c9eb2' },
+    { name: 'Dark Navy Blue', color: '#1e3a5f', hex: '#1e3a5f' },
+    { name: 'Dark Blue', color: '#1e40af', hex: '#1e40af' },
+    { name: 'Navy Blue', color: '#1e3a8a', hex: '#1e3a8a' },
     { name: 'Gold', color: '#fbbf24', hex: '#fbbf24' },
-    { name: 'Sage Green', color: '#86a986', hex: '#86a986' }
+    { name: 'Light Gold', color: '#fde68a', hex: '#fde68a' }
   ];
 
   return (
@@ -71,8 +72,8 @@ const DressCodeSection = () => {
                     <div className="text-center px-4">
                       <p className="text-base font-semibold text-foreground mb-2">Formal Attire</p>
                       <p className="text-sm text-foreground mb-3">
-                        <strong>NINONG:</strong> Barong with slacks (black/blue)<br/>
-                        <strong>NINANG:</strong> Shades of Blue dress
+                        <strong>NINONG:</strong> Barong with slacks (Dark Navy Blue/Navy Blue)<br/>
+                        <strong>NINANG:</strong> Elegant dress in Dark Navy Blue or Gold
                       </p>
                     </div>
                     
@@ -131,8 +132,8 @@ const DressCodeSection = () => {
                     <div className="text-center px-4 mb-3">
                       <p className="text-base font-semibold text-foreground mb-2">Smart Casual</p>
                       <p className="text-sm text-foreground mb-3">
-                        <strong>Gentlemen:</strong> Smart casual with blue jeans or maong<br/>
-                        <strong>Ladies:</strong> Mid-length maxi dress in Royal Blue, Dusty Blue, Gold, or Sage Green
+                        <strong>Gentlemen:</strong> Smart casual in Dark Navy Blue, Dark Blue, or Navy Blue<br/>
+                        <strong>Ladies:</strong> Elegant dress in Dark Navy Blue, Dark Blue, Navy Blue, Gold, or Light Gold
                       </p>
                     </div>
                     

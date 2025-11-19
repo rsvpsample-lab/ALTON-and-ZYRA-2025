@@ -149,7 +149,7 @@ const container: React.CSSProperties = {
 
 const timelineEvents: TimelineEvent[] = [
     {
-        time: "2:00 PM",
+        time: "8:30 AM",
         event: "Registration",
         description: "Guests arrive and register for the celebration.",
         iconUrl: "https://res.cloudinary.com/dajcu5yvb/image/upload/v1763444323/a2ec87a4-a1b8-4a1b-9f01-1df09fe0be52-removebg-preview_fegd8j.png",
@@ -157,49 +157,41 @@ const timelineEvents: TimelineEvent[] = [
         hueB: 40,
     },
     {
-        time: "2:30 PM",
-        event: "Entourage Formation",
-        description: "Our entourage prepares for the ceremony procession.",
-        iconUrl: "https://res.cloudinary.com/dajcu5yvb/image/upload/v1763444322/43cc5e31-35d5-435d-9a7d-a5a748bc9834-removebg-preview_xn91q3.png",
-        hueA: 40,
-        hueB: 40,
-    },
-    {
-        time: "3:00 PM",
+        time: "9:00 AM",
         event: "Wedding Ceremony",
-        description: "Witness our vows and the beginning of our journey together.",
+        description: "Witness our vows and the beginning of our journey together at Saint John The Baptist Parish Church.",
         iconUrl: "https://res.cloudinary.com/dajcu5yvb/image/upload/v1763443482/c97090f6-ba37-470b-87de-85444b456fe2-removebg-preview_dlhacn.png",
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "4:00 PM",
-        event: "Photo Session / Cocktail Hour",
-        description: "Capture precious moments while enjoying cocktails.",
+        time: "10:30 AM",
+        event: "Photo Session",
+        description: "Capture precious moments with the newlyweds and loved ones.",
         iconUrl: "https://res.cloudinary.com/dajcu5yvb/image/upload/v1763444322/abc2a985-f83a-4f83-8699-0c697d56cd27-removebg-preview_kvlrtb.png",
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "4:30 PM",
+        time: "1:00 PM",
         event: "Reception Starts",
-        description: "Join us as we begin the evening celebration.",
+        description: "Join us at Ysabel Private Resort as we begin our celebration.",
         iconUrl: "https://res.cloudinary.com/dajcu5yvb/image/upload/v1763444383/2fbf6eb7-491e-4491-a25d-ea25a1d922f6__1_-removebg-preview_sip21s.png",
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "6:00 PM",
-        event: "Dinner Reception",
+        time: "2:00 PM",
+        event: "Lunch Reception",
         description: "Share a delicious meal with us and our loved ones.",
         iconUrl: "https://res.cloudinary.com/dajcu5yvb/image/upload/v1763444322/e2a40e37-eead-4eea-94dd-3d4d9af26dfe-removebg-preview_feavro.png",
         hueA: 40,
         hueB: 40,
     },
     {
-        time: "8:30 PM",
-        event: "Time to Dance and Wave",
-        description: "Let's dance the night away and celebrate!",
+        time: "4:00 PM",
+        event: "Time to Dance and Celebrate",
+        description: "Let's dance the afternoon away and celebrate!",
         iconUrl: "https://res.cloudinary.com/dajcu5yvb/image/upload/v1763444322/9b91f644-b094-4b09-89e5-089e9ced77fd-removebg-preview_sxdfm0.png",
         hueA: 40,
         hueB: 40,
@@ -277,10 +269,10 @@ export default function ScrollTriggeredTimeline() {
                     </p>
                     <div className="space-y-3">
                         <div className="inline-block border-2 border-yellow-600 rounded-lg px-4 md:px-6 py-3 bg-[#ffffff] max-w-full">
-                            <p className="text-yellow-600 text-sm sm:text-base md:text-lg break-all" style={{ fontFamily: 'Satoshi, sans-serif' }} data-testid="text-hashtag-1">#bANNwithbRHYS</p>
+                            <p className="text-yellow-600 text-sm sm:text-base md:text-lg break-all" style={{ fontFamily: 'Satoshi, sans-serif' }} data-testid="text-hashtag-1">#AltonAndZyra2025</p>
                         </div>
                         <div className="inline-block border-2 border-yellow-600 rounded-lg px-4 md:px-6 py-3 bg-[#ffffff] max-w-full">
-                            <p className="text-yellow-600 text-sm sm:text-base md:text-lg break-all" style={{ fontFamily: 'Satoshi, sans-serif' }} data-testid="text-hashtag-2">#RHYS&ANNdyinglove</p>
+                            <p className="text-yellow-600 text-sm sm:text-base md:text-lg break-all" style={{ fontFamily: 'Satoshi, sans-serif' }} data-testid="text-hashtag-2">#ForeverAltonAndZyra</p>
                         </div>
                     </div>
                 </div>

@@ -40,7 +40,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
           {animationsEnabled ? (
             <TypeAnimation
               sequence={[
-                'RHYS & ANN',
+                'ALTON & ZYRA',
                 () => {
                   setShowElements(true);
                 }
@@ -61,7 +61,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
               }}
               className="typewriter-text"
             >
-              RHYS & ANN
+              ALTON & ZYRA
             </span>
           )}
         </h1>
@@ -69,7 +69,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
         {/* Date */}
         <div className={`transition-all duration-700 mt-6 ${(animationsEnabled && showElements) ? 'animate-fade-up opacity-100' : (!animationsEnabled ? 'opacity-100' : 'opacity-0')}`}>
           <p className="text-sm sm:text-base md:text-lg text-white font-light tracking-[0.3em] uppercase" data-testid="text-date" style={{ fontFamily: 'Satoshi, sans-serif', fontWeight: 300 }}>
-            December 10, 2025 . Quezon City
+            December 13, 2025 . Calamba City, Laguna
           </p>
         </div>
       </div>

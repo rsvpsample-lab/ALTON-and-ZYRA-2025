@@ -7,15 +7,27 @@ import { LinkPreview } from '@/components/ui/link-preview';
 const VenueSection = () => {
   const venues = [
     {
-      title: 'Ceremony & Reception',
-      name: 'DAZA PARK PAVILION',
-      address: 'Quezon City',
+      title: 'Ceremony',
+      name: 'SAINT JOHN THE BAPTIST PARISH CHURCH',
+      address: 'Calamba City, Laguna',
       image: 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393680/2_c9glo1.jpg',
       mapUrl: 'https://maps.app.goo.gl/xCJhgWoBaVAxDqSb8',
       mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9513638417143!2d121.06282437510615!3d14.601846485884638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7e3136d2941%3A0x317b60def9af87f5!2sDaza%20Park%2C%20Camp%20Aguinaldo!5e0!3m2!1sen!2sph!4v1763395129821!5m2!1sen!2sph',
-      description: 'Join us at DAZA PARK PAVILION for our wedding ceremony and reception. This beautiful venue will witness our vows and celebration of love.',
-      details: 'Registration begins at 2:00 PM. Wedding ceremony starts at 3:00 PM. Reception begins at 4:30 PM with dinner at 6:00 PM.',
-      startTime: '2:00 PM',
+      description: 'Join us at Saint John The Baptist Parish Church for our wedding ceremony as we exchange our sacred vows.',
+      details: 'Wedding ceremony begins at 9:00 AM. Please arrive early to find your seats.',
+      startTime: '9:00 AM',
+      locationGuide: 'View on Maps →'
+    },
+    {
+      title: 'Reception',
+      name: 'YSABEL PRIVATE RESORT',
+      address: '158 Mutya Street Ma. Makiling Hot Spring Village, Calamba, Philippines',
+      image: 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393680/2_c9glo1.jpg',
+      mapUrl: 'https://maps.app.goo.gl/xCJhgWoBaVAxDqSb8',
+      mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.9513638417143!2d121.06282437510615!3d14.601846485884638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7e3136d2941%3A0x317b60def9af87f5!2sDaza%20Park%2C%20Camp%20Aguinaldo!5e0!3m2!1sen!2sph!4v1763395129821!5m2!1sen!2sph',
+      description: 'Celebrate with us at Ysabel Private Resort for an unforgettable reception filled with joy, love, and cherished memories.',
+      details: 'Reception begins at 1:00 PM. Enjoy cocktails, dinner, and dancing as we celebrate our special day.',
+      startTime: '1:00 PM',
       locationGuide: 'View on Maps →'
     }
   ];
