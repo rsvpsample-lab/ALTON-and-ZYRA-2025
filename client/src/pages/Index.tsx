@@ -9,6 +9,7 @@ import StorySection from '@/components/StorySection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
 import VenueSection from '@/components/VenueSection';
 import DressCodeSection from '@/components/DressCodeSection';
+import HashtagGiftsSection from '@/components/HashtagGiftsSection';
 import RSVPSection from '@/components/RSVPSection';
 import MemorableMomentsSection from '@/components/MemorableMomentsSection';
 import FAQSection from '@/components/FAQSection';
@@ -73,6 +74,7 @@ const Index = () => {
           alt="Rhys & Ann Wedding Cover"
         />
         <DressCodeSection />
+        <HashtagGiftsSection />
         <MemorableMomentsSection />
         <RSVPSection rsvpLink="https://rhys-ann-rsvp.replit.app" />
         <FAQSection />
