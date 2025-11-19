@@ -13,7 +13,7 @@ const HeroSection = ({ audioRef }: HeroSectionProps) => {
 
   return (
     <section
-      className="hero-section bg-white relative min-h-screen flex flex-col items-center justify-start md:justify-center overflow-hidden pt-20 md:pt-0"
+      className="hero-section bg-white relative min-h-screen flex flex-col items-center justify-start md:justify-center overflow-hidden pt-32 md:pt-0"
     >
       {/* Background Image */}
       <img
