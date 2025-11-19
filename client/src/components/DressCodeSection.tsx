@@ -39,7 +39,7 @@ const DressCodeSection = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut", delay: 7.8 }}
         >
-          <h2 className="font-display font-light italic text-gold mb-8 text-[48px]" data-testid="text-dresscode-title">
+          <h2 className="font-display font-light italic mb-8 text-[48px]" data-testid="text-dresscode-title" style={{ color: '#000080' }}>
             Attire Guide
           </h2>
         </motion.div>
