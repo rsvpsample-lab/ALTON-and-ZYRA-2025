@@ -30,7 +30,7 @@ const Index = () => {
 
     if (consent && audioRef.current) {
       try {
-        audioRef.current.currentTime = 6;
+        audioRef.current.currentTime = 0;
         await audioRef.current.play();
       } catch (error) {
         console.error('Background music playback failed:', error);
@@ -46,7 +46,7 @@ const Index = () => {
         preload="auto"
         style={{ display: 'none' }}
         data-testid="background-audio"
-        src="https://res.cloudinary.com/dna2lcbua/video/upload/v1763438477/Ben_Ben_-_Araw-Araw_Lyrics_udpl55.mp3"
+        src="https://res.cloudinary.com/dlwmkmgzl/video/upload/v1763545415/Can_t_Help_Falling_In_Love_-_Elvis_Presley_-_Violin_cover_xjhzlo.mp3"
       />
 
       <MusicConsentPopup 
