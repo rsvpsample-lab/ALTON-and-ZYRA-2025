@@ -73,7 +73,7 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
                 <div className="absolute inset-0 rounded-full bg-gradient-to-br from-yellow-600/20 to-yellow-600/10 animate-pulse" />
                 <div className="relative w-full h-full rounded-full bg-white border-2 border-yellow-600/20 flex items-center justify-center">
                   <img 
-                    src="https://res.cloudinary.com/dajcu5yvb/image/upload/v1763442716/751525ab-5907-4590-885a-c08578c62b36-removebg-preview_itqfp2.png" 
+                    src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763552595/1472bfb8-1c57-41c5-aced-92ce401ab935-removebg-preview_ff4uxg.png" 
                     alt="Wedding symbol" 
                     className="w-full h-full object-contain"
                   />
@@ -132,7 +132,6 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
           </div>
         </div>
       </div>
-
       {/* Polaroid Photos */}
       <div className="relative z-10 flex flex-wrap items-center justify-center gap-8 max-w-6xl">
         {polaroids.map((polaroid, index) => (
