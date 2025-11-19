@@ -70,24 +70,26 @@ const RSVPSection = ({ rsvpLink }: RSVPSectionProps) => {
               transition={{ duration: 0.6, delay: 11.4 }}
             >
               {/* Message with contact details */}
-              <div className="mt-8 bg-white rounded-2xl p-8 max-w-2xl mx-auto shadow-teal border border-yellow-600/20">
+              <div className="mt-8 bg-white rounded-2xl p-8 max-w-3xl mx-auto shadow-teal border border-yellow-600/20">
                 <p 
-                  className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto"
+                  className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto mb-6"
                   data-testid="text-rsvp-message"
                 >
-                  We're so excited to celebrate and share this special day with our favorite people! Please message Rhys & Ann on their Facebook accounts or ANSWER THE RSVP BUTTON BELOW to let us know if you'll be joining us.
+                  We're so excited to celebrate and share this special day with our favorite people! Please fill out the form below to let us know if you'll be joining us.
                 </p>
-                <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto mt-4">The last day to RSVP is November 24, 2025. Get ready for a day filled with love, laughter, and unforgettable moments!</p>
-                <div className="text-center mb-6">
-                  <a 
-                    href={ rsvpLink} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="inline-block bg-yellow-600 text-white hover:bg-yellow-600/90 font-semibold py-3 px-8 rounded-lg transition-colors duration-200 text-lg"
-                    data-testid="button-rsvp"
+                <p className="text-base md:text-lg text-foreground/80 leading-relaxed max-w-2xl mx-auto mb-6">The last day to RSVP is November 24, 2025. Get ready for a day filled with love, laughter, and unforgettable moments!</p>
+                <div className="flex justify-center mb-6">
+                  <iframe 
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSd7y2Gog1keouwztFzjFSj_podkkMgsToUMONvRrPdF0z4tnQ/viewform?embedded=true" 
+                    width="640" 
+                    height="712" 
+                    frameBorder="0" 
+                    marginHeight={0}
+                    marginWidth={0}
+                    className="w-full max-w-full"
                   >
-                    RSVP Now
-                  </a>
+                    Loading…
+                  </iframe>
                 </div>
                 <p className="text-center">
                   <span className="font-body md:text-lg font-bold px-3 py-1 rounded whitespace-nowrap text-[12px] text-white bg-yellow-600">RSVP DUE DATE: November 24, 2025</span>
