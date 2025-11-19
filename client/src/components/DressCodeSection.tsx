@@ -55,9 +55,6 @@ const DressCodeSection = () => {
             whileHover={{ scale: 1.02 }}
           >
             <div className="bg-white shadow-teal border border-primary/20 rounded-xl p-8 hover-elegant transition-all duration-500 h-full relative">
-              {/* Anchor Decoration */}
-              <img src={anchorIcon} alt="" className="absolute top-2 right-2 w-16 md:w-20 opacity-80" />
-              
               <div className="text-center">
                 <motion.div
                   initial={{ scale: 0.8 }}
@@ -115,9 +112,6 @@ const DressCodeSection = () => {
             whileHover={{ scale: 1.02 }}
           >
             <div className="bg-white shadow-teal border border-primary/20 rounded-xl p-8 hover-elegant transition-all duration-500 h-full relative">
-              {/* Anchor Decoration */}
-              <img src={anchorIcon} alt="" className="absolute top-2 left-2 w-16 md:w-20 opacity-80" />
-              
               <div className="text-center">
                 <motion.div
                   initial={{ scale: 0.8 }}
