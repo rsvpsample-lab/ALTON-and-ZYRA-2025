@@ -26,7 +26,7 @@ const VenueSection = () => {
       mapUrl: 'https://maps.app.goo.gl/tyfJD6Q5TfZWPqYS7',
       mapEmbed: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3868.259494268712!2d121.17696857456569!3d14.179573787246916!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd61f6053f1f85%3A0xa91a1bbc5439e846!2sYsabel%20Garden%20Resort!5e0!3m2!1sen!2sph!4v1763552186116!5m2!1sen!2sph',
       description: 'Celebrate with us at Ysabel Private Resort for an unforgettable reception filled with joy, love, and cherished memories.',
-      details: 'Reception begins at 1:00 PM. Enjoy cocktails, dinner, and dancing as we celebrate our special day.',
+      details: 'Reception begins at 1:00 PM. Enjoy cocktails, lunch, and dancing as we celebrate our special day.',
       startTime: '1:00 PM',
       locationGuide: 'View on Maps →'
     }
