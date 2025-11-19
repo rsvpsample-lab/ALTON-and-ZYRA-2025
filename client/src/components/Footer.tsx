@@ -20,9 +20,9 @@ const Footer = () => {
           {/* Couple Names */}
           <div>
             <h2 className="text-3xl sm:text-4xl mb-2 text-foreground" style={{ fontFamily: 'Boska, serif', fontWeight: 300 }}>
-              RHYS
+              Rhys
               <span className="text-yellow-600 mx-3">&</span>
-              ANN
+              Ann
             </h2>
             <p className="text-foreground text-lg">
               December 10, 2025 • Quezon City

@@ -30,16 +30,6 @@ const FAQSection = () => {
 
   const faqs: FAQ[] = [
     {
-      question: "CHILDREN",
-      icon: Users,
-      answer: "As we have limited space and want to enjoy the moments with you, we've decided to make our celebration an adults-only event, except for children who are listed on your invitation. We hope you understand and can join us for this special day!"
-    },
-    {
-      question: "CAN I BRING A PLUS-ONE?",
-      icon: Users,
-      answer: "As much as we'd love to celebrate with everyone, we have carefully planned our guest list. Invitations are for the names specified, and unfortunately, we won't be able to accommodate additional guests. We appreciate your understanding and can't wait to celebrate with you!"
-    },
-    {
       question: "WHAT TIME SHOULD I ARRIVE?",
       icon: Clock,
       answer: "To ensure everything runs smoothly, please arrive at least 30 minutes before the ceremony starts. This will give you time to find your seat, take in the beautiful setup, and be fully present for our special moment from the very start of the ceremony and until the beginning of our journey to forever."
@@ -47,22 +37,12 @@ const FAQSection = () => {
     {
       question: "WHERE SHOULD I PARK?",
       icon: MapPin,
-      answer: "We have reserved parking in front of Daza Park along the Road and also inside the Daza Park premises."
+      answer: "We have reserved parking in front of Daza Park along the road and also inside the Daza Park premises."
     },
     {
       question: "WHERE WILL I BE SEATED AT THE RECEPTION?",
       icon: Users,
-      answer: "We have reserved seats for you. Upon arrival, our ushers will be happy to assist you."
-    },
-    {
-      question: "CAN I POST PICTURES ON SOCIAL MEDIA?",
-      icon: Camera,
-      answer: "After the ceremony, you can take and share photos. If you do, we'd love for you to use our wedding hashtags #bANNwithbRHYS and #RHYS&ANNdyinglove so we can look back on all the wonderful memories together."
-    },
-    {
-      question: "UNPLUGGED CEREMONY",
-      icon: Camera,
-      answer: "We are having an unplugged ceremony, meaning we kindly ask all guests to put away their phones and cameras. We want everyone to be fully in the moment with us. Don't worry—our professional photographer will capture all the special moments, and we'll be happy to share them with you later!"
+      answer: "We have reserved seats for you. Upon arrival, our ushers will be happy to assist you in finding your designated seat."
     },
     {
       question: "GIFTS",
@@ -72,7 +52,7 @@ const FAQSection = () => {
     {
       question: "SAVE YOUR SEAT AT THE CELEBRATION",
       icon: MessageCircle,
-      answer: "We're so excited to celebrate and share this special day with our favorite people! Please message us on our Facebook accounts or ANSWER THE RSVP BUTTON BELOW to let us know if you'll be joining us. The last day to RSVP is November 20, 2025. Get ready for a day filled with love, laughter, and unforgettable moments!"
+      answer: "We're so excited to celebrate and share this special day with our favorite people! Please fill out the RSVP form below to let us know if you'll be joining us. The last day to RSVP is November 24, 2025. Get ready for a day filled with love, laughter, and unforgettable moments!"
     }
   ];
 
