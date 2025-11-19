@@ -69,7 +69,7 @@ const DressCodeSection = () => {
                     <div className="text-center px-4">
                       <p className="text-base font-semibold text-foreground mb-2">Formal Attire</p>
                       <p className="text-sm text-foreground mb-3">
-                        <strong>NINONG:</strong> Barong with slacks (Dark Navy Blue/Navy Blue)<br/>
+                        <strong>NINONG:</strong> Suit or Barong with Dark Navy Blue/Navy Blue slacks (Light Gold pants optional for Gold/Light Gold suit or barong)<br/>
                         <strong>NINANG:</strong> Elegant dress in Dark Navy Blue or Gold
                       </p>
                     </div>
@@ -178,7 +178,6 @@ const DressCodeSection = () => {
                 <ul className="list-disc list-inside space-y-1 text-red-800">
                   <li>Ball gowns</li>
                   <li>White dresses (reserved for the bride)</li>
-                  <li>Sleeveless attire</li>
                   <li>Black dresses and black jeans</li>
                 </ul>
               </div>
