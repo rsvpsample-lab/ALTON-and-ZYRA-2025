@@ -10,18 +10,18 @@
 
 @layer base {
   :root {
-    /* Navy Blue Wedding Theme */
+    /* Baby Blue & Navy Wedding Theme */
     
-    /* PRIMARY - Light Navy Background */
-    --background: 210 40% 92%; /* Light navy background */
+    /* PRIMARY - Baby Blue Background */
+    --background: 200 70% 85%; /* Baby blue background */
     --foreground: 210 80% 20%; /* Deep navy blue text */
 
     /* Card Colors - Light cards with dark text */
-    --card: 210 30% 96%; /* Very light navy cards */
+    --card: 200 50% 95%; /* Very light blue cards */
     --card-foreground: 210 80% 20%; /* Deep navy blue text */
 
     /* Popover Colors */
-    --popover: 210 30% 96%; /* Light navy popover */
+    --popover: 200 50% 95%; /* Light blue popover */
     --popover-foreground: 210 80% 20%; /* Deep navy blue text */
 
     /* Brand Color */
@@ -29,59 +29,59 @@
     
     /* PRIMARY - Navy Blue */
     --primary: 210 70% 30%; /* Navy blue primary */
-    --primary-foreground: 0 0% 100%; /* White text */
+    --primary-foreground: 45 100% 51%; /* Gold text on navy */
 
-    /* Secondary Colors - Light Navy */
-    --secondary: 210 25% 90%; /* Very light navy secondary */
+    /* Secondary Colors - Light Blue */
+    --secondary: 200 50% 90%; /* Very light blue secondary */
     --secondary-foreground: 210 80% 20%; /* Deep navy blue text */
 
-    /* Muted Colors - Soft Navy */
-    --muted: 210 20% 88%; /* Light navy muted */
+    /* Muted Colors - Soft Blue */
+    --muted: 200 40% 88%; /* Light blue muted */
     --muted-foreground: 210 60% 30%; /* Medium navy blue text */
 
-    /* ACCENT - Light Navy */
-    --accent: 210 25% 90%; /* Light navy accent */
+    /* ACCENT - Light Blue */
+    --accent: 200 50% 90%; /* Light blue accent */
     --accent-foreground: 210 80% 20%; /* Deep navy blue text */
 
-    /* Special Accent - Navy for CTAs and highlights */
-    --gold: 210 70% 30%; /* Navy blue for emphasis */
-    --gold-foreground: 0 0% 100%; /* White text on navy */
+    /* Special Accent - Gold for CTAs and highlights */
+    --gold: 45 100% 51%; /* Gold for emphasis */
+    --gold-foreground: 210 70% 30%; /* Navy text on gold */
     
-    /* Bright Accent - Brighter Navy for emphasis */
-    --gold-bright: 210 65% 40%; /* Brighter navy for emphasis */
+    /* Bright Accent - Brighter Gold for emphasis */
+    --gold-bright: 45 100% 60%; /* Brighter gold for emphasis */
     
     /* Teal Accent - Navy for timeline icons */
     --teal: 210 60% 35%; /* Navy accent color */
-    --teal-foreground: 0 0% 100%; /* White text on navy */
+    --teal-foreground: 45 100% 51%; /* Gold text on navy */
 
-    /* Aesthetic Palette - Navy tones */
-    --rose-gold: 210 30% 90%; /* Very light navy */
-    --rose-gold-dark: 210 35% 80%; /* Light navy */
-    --amber-glow: 210 30% 85%; /* Light navy */
-    --warm-light: 210 25% 90%; /* Very light navy */
+    /* Aesthetic Palette - Blue & Gold tones */
+    --rose-gold: 200 60% 90%; /* Very light blue */
+    --rose-gold-dark: 200 50% 80%; /* Light blue */
+    --amber-glow: 45 100% 75%; /* Light gold */
+    --warm-light: 200 60% 90%; /* Very light blue */
 
-    /* Natural Accents Palette - Navy tones */
+    /* Natural Accents Palette - Mixed tones */
     --city-blue: 210 65% 35%; /* Medium navy accent */
-    --city-cyan: 210 55% 40%; /* Lighter navy accent */
-    --city-amber: 210 70% 30%; /* Navy accent */
-    --city-purple: 210 60% 38%; /* Medium navy accent */
+    --city-cyan: 200 50% 55%; /* Cyan blue accent */
+    --city-amber: 45 100% 51%; /* Gold accent */
+    --city-purple: 210 55% 60%; /* Medium blue accent */
 
     /* Destructive */
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 100%;
 
     /* Borders & Inputs */
-    --border: 210 30% 80%; /* Light navy border */
-    --input: 210 35% 75%; /* Navy input */
+    --border: 200 50% 75%; /* Light blue border */
+    --input: 210 60% 70%; /* Blue input */
     --ring: 210 70% 30%; /* Navy accent ring */
 
     /* Border Radius */
     --radius: 0.75rem;
 
-    /* Navy Blue Gradients */
-    --gradient-elegant: linear-gradient(135deg, hsl(210, 40%, 92%), hsl(210, 35%, 88%));
-    --gradient-gold: linear-gradient(135deg, hsl(210, 70%, 30%), hsl(210, 65%, 40%));
-    --gradient-night: linear-gradient(180deg, hsl(210, 40%, 92%) 0%, hsl(210, 35%, 88%) 100%);
+    /* Baby Blue & Navy Gradients */
+    --gradient-elegant: linear-gradient(135deg, hsl(200, 70%, 85%), hsl(200, 60%, 80%));
+    --gradient-gold: linear-gradient(135deg, hsl(45, 100%, 51%), hsl(45, 100%, 60%));
+    --gradient-night: linear-gradient(180deg, hsl(200, 70%, 85%) 0%, hsl(200, 60%, 80%) 100%);
     --gradient-bokeh: radial-gradient(ellipse at center, hsl(210, 70%, 30%) 0%, transparent 60%);
 
     /* Sage Green Shadows */
@@ -101,13 +101,13 @@
     --transition-elegant: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 
-    --sidebar-background: 210 40% 92%;
+    --sidebar-background: 200 70% 85%;
     --sidebar-foreground: 210 80% 20%;
     --sidebar-primary: 210 70% 30%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 25% 90%;
+    --sidebar-primary-foreground: 45 100% 51%;
+    --sidebar-accent: 200 50% 90%;
     --sidebar-accent-foreground: 210 80% 20%;
-    --sidebar-border: 210 30% 80%;
+    --sidebar-border: 200 50% 75%;
     --sidebar-ring: 210 70% 30%;
   }
 
@@ -181,10 +181,10 @@
 
   @keyframes goldGlow {
     0%, 100% {
-      box-shadow: 0 0 20px rgba(20, 40, 80, 0.4);
+      box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
     }
     50% {
-      box-shadow: 0 0 40px rgba(20, 40, 80, 0.6);
+      box-shadow: 0 0 40px rgba(255, 193, 7, 0.6);
     }
   }
 
@@ -224,7 +224,7 @@
   body {
     @apply text-foreground font-body;
     font-family: var(--font-body);
-    background: hsl(210, 40%, 92%);
+    background: hsl(200, 70%, 85%);
     position: relative;
     min-height: 100vh;
     margin: 0;
@@ -244,14 +244,14 @@
     pointer-events: none;
   }
 
-  /* Gradient Overlays - Navy Blue Subtle Accents */
+  /* Gradient Overlays - Baby Blue Subtle Accents */
   body::after {
     content: "";
     position: fixed;
     inset: 0;
     background: 
-      radial-gradient(circle at top left, rgba(20, 40, 80, 0.1) 0%, transparent 60%),
-      radial-gradient(circle at bottom right, rgba(20, 40, 80, 0.08) 0%, transparent 60%);
+      radial-gradient(circle at top left, rgba(33, 76, 132, 0.1) 0%, transparent 60%),
+      radial-gradient(circle at bottom right, rgba(33, 76, 132, 0.08) 0%, transparent 60%);
     z-index: 0;
     pointer-events: none;
   }
@@ -659,9 +659,9 @@
     animation-play-state: paused;
   }
 
-  /* Alternating Section Backgrounds - Navy Blue Theme */
+  /* Alternating Section Backgrounds - Baby Blue Theme */
   .section-pastel-blue {
-    background-color: hsl(210, 40%, 92%);
+    background-color: hsl(200, 70%, 85%);
     color: hsl(210, 80%, 20%);
     position: relative;
     overflow: hidden;
@@ -673,7 +673,7 @@
   }
 
   .section-hard-blue {
-    background: hsl(210, 40%, 92%);
+    background: hsl(200, 70%, 85%);
     color: hsl(210, 80%, 20%);
     position: relative;
     overflow: hidden;
