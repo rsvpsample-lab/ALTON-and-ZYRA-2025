@@ -41,25 +41,25 @@ const RusticInvitationReveal = ({ animationsEnabled }: RusticInvitationRevealPro
 
           {/* Decorative Icons on Edges */}
           <img 
-            src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763552594/711bd08c-f9f4-4f9f-ad20-ced20875ff89-removebg-preview_ry9vhc.png" 
+            src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763553017/image-removebg-preview_1_fkzzdk.png" 
             alt="" 
             className="absolute top-4 left-4 w-16 h-16 md:w-24 md:h-24 object-contain opacity-60 animate-float pointer-events-none"
             data-testid="decoration-flower-invitation-topleft"
           />
           <img 
-            src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763552594/42fd2207-2b5f-42b5-b2e9-a72eac46c047-removebg-preview_bklckv.png" 
+            src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763553017/image-removebg-preview_1_fkzzdk.png" 
             alt="" 
             className="absolute top-4 right-4 w-16 h-16 md:w-24 md:h-24 object-contain opacity-60 animate-float-delayed pointer-events-none"
             data-testid="decoration-flower-invitation-topright"
           />
           <img 
-            src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763552594/42fd2207-2b5f-42b5-b2e9-a72eac46c047-removebg-preview_bklckv.png" 
+            src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763553017/image-removebg-preview_1_fkzzdk.png" 
             alt="" 
             className="absolute bottom-4 left-4 w-16 h-16 md:w-24 md:h-24 object-contain opacity-60 animate-float-delayed pointer-events-none transform rotate-45"
             data-testid="decoration-flower-invitation-bottomleft"
           />
           <img 
-            src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763552594/711bd08c-f9f4-4f9f-ad20-ced20875ff89-removebg-preview_ry9vhc.png" 
+            src="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763553017/image-removebg-preview_1_fkzzdk.png" 
             alt="" 
             className="absolute bottom-4 right-4 w-16 h-16 md:w-24 md:h-24 object-contain opacity-60 animate-float pointer-events-none transform -rotate-12"
             data-testid="decoration-flower-invitation-bottomright"
