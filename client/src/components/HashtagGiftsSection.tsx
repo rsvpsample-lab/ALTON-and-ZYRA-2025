@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 import { optimizeCloudinaryUrl } from '@/lib/cloudinaryOptimize';
-const backgroundImage = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393690/IMG-66_uxkkvh.jpg';
+const backgroundImage = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550573/gift_section_fp45qe.jpg';
 
-const giftQR1 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763394029/gift1_mxwaa4.jpg';
-const giftQR2 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763394029/gift2_tdi6gg.jpg';
+const giftQR1 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550490/gift1_qyxgb0.jpg';
+const giftQR2 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550573/gift2_oev8qm.jpg';
 
 const HashtagGiftsSection = () => {
   return (

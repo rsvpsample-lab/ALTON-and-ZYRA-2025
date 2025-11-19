@@ -4,18 +4,12 @@ import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/compone
 import { X } from 'lucide-react';
 
 // Save the date photos from Cloudinary
-const prenup1 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393694/IMG-68_uahcvp.jpg';
-const prenup2 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393691/IMG-71_nbxavq.jpg';
-const prenup3 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393692/IMG-72_jroy0i.jpg';
-const prenup4 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393690/IMG-63_aqyqsd.jpg';
-const prenup5 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393690/IMG-59_ouyoyy.jpg';
-const prenup6 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393690/IMG-56_bo3vxc.jpg';
-const prenup7 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393690/IMG-55_d7maub.jpg';
-const prenup8 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393688/IMG-33_lngr0j.jpg';
-const prenup9 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393689/IMG-44_ouqeks.jpg';
-const prenup10 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393690/IMG-57_kmwebe.jpg';
-const prenup11 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393687/IMG-19_bhduh7.jpg';
-const prenup12 = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393690/IMG-63_aqyqsd.jpg';
+const prenup1 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550574/prenup5_ngysli.jpg';
+const prenup2 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550574/prenup8_vl55zu.jpg';
+const prenup3 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550575/prenup6_oxppw3.jpg';
+const prenup4 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550575/prenup9_ieka9y.jpg';
+const prenup5 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550573/prenup4_wxd8ju.jpg';
+const prenup6 = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550574/prenup2_cbps8u.jpg';
 
 const MemorableMomentsSection = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
@@ -26,11 +20,7 @@ const MemorableMomentsSection = () => {
     { src: prenup3, fullSrc: prenup3, alt: "Prenup photo 3", height: "h-72" },
     { src: prenup4, fullSrc: prenup4, alt: "Prenup photo 4", height: "h-64" },
     { src: prenup5, fullSrc: prenup5, alt: "Prenup photo 5", height: "h-80" },
-    { src: prenup6, fullSrc: prenup6, alt: "Prenup photo 6", height: "h-72" },
-    { src: prenup8, fullSrc: prenup8, alt: "Prenup photo 8", height: "h-80" },
-    { src: prenup9, fullSrc: prenup9, alt: "Prenup photo 9", height: "h-72" },
-    { src: prenup11, fullSrc: prenup11, alt: "Prenup photo 11", height: "h-80" },
-    { src: prenup12, fullSrc: prenup12, alt: "Prenup photo 12", height: "h-72" }
+    { src: prenup6, fullSrc: prenup6, alt: "Prenup photo 6", height: "h-72" }
   ];
 
   return (

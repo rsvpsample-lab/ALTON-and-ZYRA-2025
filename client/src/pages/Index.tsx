@@ -65,15 +65,19 @@ const Index = () => {
         <StorySection />
         <ScrollTriggeredTimeline />
         <CoverSection
-          imageUrl="https://res.cloudinary.com/dqr27nycf/image/upload/v1763393688/IMG-37_u9xyzf.jpg"
-          alt="Rhys & Ann Wedding Cover"
+          imageUrl="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550571/cover1_x8wfgb.jpg"
+          alt="Alton & Zyra Wedding Cover"
         />
         <VenueSection />
         <CoverSection
-          imageUrl="https://res.cloudinary.com/dqr27nycf/image/upload/v1763393687/IMG-19_bhduh7.jpg"
-          alt="Rhys & Ann Wedding Cover"
+          imageUrl="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550573/cover2_qmfmj3.jpg"
+          alt="Alton & Zyra Wedding Cover"
         />
         <DressCodeSection />
+        <CoverSection
+          imageUrl="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550572/cover3_hzdjpo.jpg"
+          alt="Alton & Zyra Wedding Cover"
+        />
         <HashtagGiftsSection />
         <MemorableMomentsSection />
         <RSVPSection rsvpLink="https://rhys-ann-rsvp.replit.app" />

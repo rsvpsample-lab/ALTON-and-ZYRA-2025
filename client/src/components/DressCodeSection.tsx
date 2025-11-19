@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { optimizeCloudinaryUrl } from '@/lib/cloudinaryOptimize';
-const principalSponsorsImage = 'https://res.cloudinary.com/dk8njsy83/image/upload/v1763448463/582268502_1365357671787380_7430866733248565310_n_1_qjzhka.jpg';
-const guestsImage = 'https://res.cloudinary.com/dk8njsy83/image/upload/v1763451609/761ffb2a-d3a7-4d3a-8dbe-00db0f811089_tdvj9t.png';
+const principalSponsorsImage = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550575/principal-sponsors_udmjzy.jpg';
+const guestsImage = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550572/guests_cnph2l.jpg';
 import anchorIcon from '@assets/image_1763448087302.png';
 
 const DressCodeSection = () => {

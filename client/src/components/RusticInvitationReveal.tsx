@@ -3,9 +3,9 @@ import flower1Image from '@assets/flower1_1759854441524.png';
 import flowerImage from '@assets/flower_1759854441531.png';
 
 // Polaroid images
-const brideImage = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393687/IMG-16_iw85pe.jpg';
-const coupleImage = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393691/IMG-71_nbxavq.jpg';
-const groomImage = 'https://res.cloudinary.com/dqr27nycf/image/upload/v1763393688/IMG-33_lngr0j.jpg';
+const brideImage = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550575/prenup3_jhkjuq.jpg';
+const coupleImage = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550573/prenup1_drq2yz.jpg';
+const groomImage = 'https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550572/cover3_hzdjpo.jpg';
 
 interface RusticInvitationRevealProps {
   animationsEnabled: boolean;
