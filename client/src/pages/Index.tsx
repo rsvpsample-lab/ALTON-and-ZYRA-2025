@@ -6,12 +6,9 @@ import ImageLoop from '@/components/ImageLoop';
 // Cover media - using Cloudinary URLs
 import CountdownSection from '@/components/CountdownSection';
 import StorySection from '@/components/StorySection';
-import SaveTheDateVideoSection from '@/components/SaveTheDateVideoSection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
 import VenueSection from '@/components/VenueSection';
 import DressCodeSection from '@/components/DressCodeSection';
-import HashtagGiftsSection from '@/components/HashtagGiftsSection';
-import EntourageSection from '@/components/EntourageSection';
 import RSVPSection from '@/components/RSVPSection';
 import MemorableMomentsSection from '@/components/MemorableMomentsSection';
 import FAQSection from '@/components/FAQSection';
@@ -65,7 +62,6 @@ const Index = () => {
         <CountdownSection />
         <ImageLoop />
         <StorySection />
-        <SaveTheDateVideoSection />
         <ScrollTriggeredTimeline />
         <CoverSection
           imageUrl="https://res.cloudinary.com/dqr27nycf/image/upload/v1763393688/IMG-37_u9xyzf.jpg"
@@ -77,14 +73,8 @@ const Index = () => {
           alt="Rhys & Ann Wedding Cover"
         />
         <DressCodeSection />
-        <HashtagGiftsSection />
         <MemorableMomentsSection />
         <RSVPSection rsvpLink="https://rhys-ann-rsvp.replit.app" />
-        <CoverSection
-          imageUrl="https://res.cloudinary.com/dqr27nycf/image/upload/v1763393690/IMG-66_uxkkvh.jpg"
-          alt="Rhys & Ann Wedding Cover"
-        />
-        <EntourageSection />
         <FAQSection />
         <Footer />
       </main>
