@@ -52,7 +52,7 @@ const FAQSection = () => {
     {
       question: "SAVE YOUR SEAT AT THE CELEBRATION",
       icon: MessageCircle,
-      answer: "We're so excited to celebrate and share this special day with our favorite people! Please fill out the RSVP form below to let us know if you'll be joining us. The last day to RSVP is November 24, 2025. Get ready for a day filled with love, laughter, and unforgettable moments!"
+      answer: "We're so excited to celebrate and share this special day with our favorite people! Please fill out the RSVP form below to let us know if you'll be joining us. The last day to RSVP is November 30, 2025. Get ready for a day filled with love, laughter, and unforgettable moments!"
     }
   ];
 
