@@ -1,3 +1,4 @@
+import { Fragment } from 'react';
 import { motion } from 'framer-motion';
 import { Users, Heart } from 'lucide-react';
 
@@ -73,10 +74,9 @@ const EntourageSection = () => {
             <div className="grid grid-cols-2 gap-4 max-w-4xl mx-auto">
               {/* Combined Row-by-Row Layout */}
               {principalSponsors.map((sponsor, index) => (
-                <>
+                <Fragment key={`sponsor-pair-${index}`}>
                   {/* Ninong - Right Aligned */}
                   <motion.div
-                    key={`ninong-${index}`}
                     className="text-right pr-2"
                     initial={{ opacity: 0, x: -20 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -88,7 +88,6 @@ const EntourageSection = () => {
 
                   {/* Ninang - Left Aligned */}
                   <motion.div
-                    key={`ninang-${index}`}
                     className="text-left pl-2"
                     initial={{ opacity: 0, x: 20 }}
                     animate={{ opacity: 1, x: 0 }}
@@ -97,7 +96,7 @@ const EntourageSection = () => {
                   >
                     <p className="text-foreground text-sm md:text-base font-normal">{sponsor.ninang}</p>
                   </motion.div>
-                </>
+                </Fragment>
               ))}
             </div>
           </div>
