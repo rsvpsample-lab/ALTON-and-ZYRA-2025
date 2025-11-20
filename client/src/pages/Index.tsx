@@ -9,7 +9,6 @@ import StorySection from '@/components/StorySection';
 import ScrollTriggeredTimeline from '@/components/ScrollTriggeredTimeline';
 import VenueSection from '@/components/VenueSection';
 import DressCodeSection from '@/components/DressCodeSection';
-import EntourageSection from '@/components/EntourageSection';
 import HashtagGiftsSection from '@/components/HashtagGiftsSection';
 import RSVPSection from '@/components/RSVPSection';
 import MemorableMomentsSection from '@/components/MemorableMomentsSection';
@@ -79,7 +78,6 @@ const Index = () => {
           imageUrl="https://res.cloudinary.com/dlwmkmgzl/image/upload/v1763550572/cover3_hzdjpo.jpg"
           alt="Alton & Zyra Wedding Cover"
         />
-        <EntourageSection />
         <HashtagGiftsSection />
         <MemorableMomentsSection />
         <RSVPSection rsvpLink="https://rhys-ann-rsvp.replit.app" />
